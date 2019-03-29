@@ -18,6 +18,10 @@ body {
     color: #00004b;
 }
 
+.text-color-secondary {
+    color: #9999b4;
+}
+
 .bg-color-light {
     background-color: #ffffff;
 }
@@ -69,6 +73,7 @@ b, strong {
 }
 
 /* navbar */
+
 .progress-bar {
     width: 100%;
     position: absolute;
