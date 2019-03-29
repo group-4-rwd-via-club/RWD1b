@@ -1,6 +1,7 @@
 body {
 	min-width: 370px;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 .screenheight {
 	/* sets container to screen height */
@@ -78,7 +79,7 @@ b, strong {
     overflow: hidden;
 }
 .progress-bar-inner {
-    left: 56%;
+    left: 50%;
 }
 
 .progress-bar .progress-bar-inner {
