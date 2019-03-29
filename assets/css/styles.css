@@ -1,6 +1,7 @@
 body {
 	min-width: 370px;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 .screenheight {
 	/* sets container to screen height */
@@ -17,6 +18,14 @@ body {
     color: #00004b;
 }
 
+.text-color-accent-primary {
+    color: #ff16ff;
+}
+
+.text-color-accent-secondary {
+    color: #5af7dc;
+}
+
 .text-color-secondary {
     color: #9999b4;
 }
@@ -25,7 +34,7 @@ body {
     background-color: #ffffff;
 }
 .bg-color-dark {
-    background-color: #00004b;
+    background-color: #06113a;
 }
 
 .bg-color-accent-primary {
@@ -55,7 +64,6 @@ p {
 h1 {
     font-size: 1.6em;
     font-weight: 200;
-    text-transform: uppercase;
     letter-spacing: 0.2em;
     line-height: 1.18;
 }
@@ -83,7 +91,7 @@ b, strong {
     overflow: hidden;
 }
 .progress-bar-inner {
-    left: 56%;
+    left: 50%;
 }
 
 .progress-bar .progress-bar-inner {
@@ -108,6 +116,9 @@ footer p {
     font-weight: 400;
 }
 
+.fab:hover, .fas:hover, footer a {
+    color: #ff16ff;
+}
 
 
 /* landing page */
@@ -127,5 +138,5 @@ footer p {
 .home_banner_area  .banner_inner{
      position:relative;
      width:100%;
-    min-height:790px
+     min-height:790px
 }
