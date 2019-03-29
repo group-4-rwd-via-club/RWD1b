@@ -1,6 +1,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.screenheight {
+	/* sets container to screen height */
+    height: 100vh;
+    overflow: auto;
+}
 
 /* Color palette */
 
