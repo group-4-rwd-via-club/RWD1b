@@ -1,4 +1,5 @@
 body {
+	min-width: 370px;
     font-family: 'Open Sans', sans-serif;
 }
 .screenheight {
