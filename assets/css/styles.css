@@ -1,0 +1,126 @@
+body {
+	min-width: 370px;
+    font-family: 'Open Sans', sans-serif;
+}
+.screenheight {
+	/* sets container to screen height */
+    height: 100vh;
+    overflow: auto;
+}
+
+/* Color palette */
+
+.text-color-light {
+    color: #ffffff;
+}
+.text-color-dark {
+    color: #00004b;
+}
+
+.bg-color-light {
+    background-color: #ffffff;
+}
+.bg-color-dark {
+    background-color: #00004b;
+}
+
+.bg-color-accent-primary {
+    background-color: #ff16ff;
+}
+
+.bg-color-accent-secondary {
+    background-color: #5af7dc;
+}
+
+.bg-color-accent-tertiary {
+    background-color: #0d3aff;
+}
+
+/*     */
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+p {
+    line-height: 1.4;
+    font-weight: 200;
+    letter-spacing: 0.03em;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 1.18;
+}
+h2 {
+    font-size: 2em;
+    font-weight: 200;
+    letter-spacing: 0.2em;
+    line-height: 1.25;
+    margin-bottom: 0.7em;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+/* navbar */
+.progress-bar {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 2px;
+    background: #06113a;
+    overflow: hidden;
+}
+.progress-bar-inner {
+    left: 56%;
+}
+
+.progress-bar .progress-bar-inner {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #06113a;
+    /* makes gradiant colors */
+    background: linear-gradient(to right, #06113a 0%, #5AF7DC 50%, #06113a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#06113a', endColorstr='#06113a', GradientType=1);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+/* footer */
+
+footer p {
+    margin-bottom: 1em;
+    font-weight: 400;
+}
+
+
+
+/* landing page */
+
+.home_banner_area{
+    background:url(../img/big1.jpg) no-repeat center bottom;
+    background-size:cover;
+    position:relative;
+    z-index:1;
+    min-height:790px
+}
+@media (max-width: 767px) {
+    .home_banner_area {
+        background-position:initial
+    }
+}
+.home_banner_area  .banner_inner{
+     position:relative;
+     width:100%;
+    min-height:790px
+}
