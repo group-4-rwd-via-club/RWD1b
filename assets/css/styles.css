@@ -104,6 +104,13 @@ b, strong {
     transform: translateX(-50%);
 }
 
+/* players */
+
+.player-carousel-background {
+    background-image: url(../img/playerStadium.jpg);
+    background-size: cover;
+    
+}
 
 /* footer */
 
@@ -128,7 +135,7 @@ footer p {
 }
 @media (max-width: 767px) {
     .home_banner_area {
-        background-position:initial
+        background-position:initial;
     }
 }
 .home_banner_area  .banner_inner{
