@@ -26,6 +26,10 @@ body {
     color: #5af7dc;
 }
 
+.text-color-accent-tertiary {
+    color: #0d3aff;
+}
+
 .text-color-secondary {
     color: #9999b4;
 }
@@ -76,6 +80,10 @@ b, strong {
 }
 
 /* navbar */
+.navbar-nav li a:hover, .navbar-nav .active {
+    color: #ff16ff; /* color of active link and hoover */
+}
+
 
 .progress-bar {
     width: 100%;
