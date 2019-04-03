@@ -106,9 +106,6 @@ b, strong {
     background: #06113a;
     /* makes gradiant colors */
     background: linear-gradient(to right, #06113a 0%, #5AF7DC 50%, #06113a 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#06113a', endColorstr='#06113a', GradientType=1);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
