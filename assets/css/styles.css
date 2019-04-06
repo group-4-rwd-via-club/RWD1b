@@ -72,6 +72,7 @@ h1 {
     font-weight: 200;
     letter-spacing: 0.2em;
     line-height: 1.18;
+    
 }
 
 h2 {
@@ -135,6 +136,14 @@ strong {
 #news-carousel {
     background-color: white;
     position: relative;
+}
+
+#news-carousel h1 {
+    color: black;
+}
+
+#news-carousel p {
+    color: black;
 }
 
 #news-carousel img {
