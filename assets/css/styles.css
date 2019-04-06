@@ -134,32 +134,20 @@ strong {
 /* news */
 
 #news-carousel {
-    background-color: white;
+    background-image: url(../img/news_bluewhitefade.png);
+    background-size: contain;
     position: relative;
+    color: #5af7dc;
+}
+
+#news-carousel img{
+    z-index: 0;
 }
 
 #news-carousel h1 {
-    color: black;
+    color: #ff16ff;
 }
 
-#news-carousel p {
-    color: black;
-}
-
-#news-carousel img {
-    z-index: 1;
-}
-
-.news-imgfade {
-    background-image: url(../img/news_bluewhitefade.png);
-    background-size: 100% 100%;
-    z-index: 2;
-    padding: 0px;
-}
-
-.news-carousel section {
-    z-index: 3;
-}
 
 
 /* footer */
