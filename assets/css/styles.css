@@ -1,19 +1,23 @@
 body {
-	min-width: 370px;
+    min-width: 370px;
     font-family: 'Open Sans', sans-serif;
+    /* Note: scroll-behavior !work on ms/safari */
     scroll-behavior: smooth;
 }
+
 .screenheight {
-	/* sets container to screen height */
+    /* sets container to screen height */
     height: 100vh;
     overflow: auto;
 }
+
 
 /* Color palette */
 
 .text-color-light {
     color: #ffffff;
 }
+
 .text-color-dark {
     color: #00004b;
 }
@@ -37,6 +41,7 @@ body {
 .bg-color-light {
     background-color: #ffffff;
 }
+
 .bg-color-dark {
     background-color: #06113a;
 }
@@ -53,6 +58,7 @@ body {
     background-color: #0d3aff;
 }
 
+
 /*     */
 
 p {
@@ -67,6 +73,7 @@ h1 {
     letter-spacing: 0.2em;
     line-height: 1.18;
 }
+
 h2 {
     font-size: 2em;
     font-weight: 200;
@@ -75,15 +82,19 @@ h2 {
     margin-bottom: 0.7em;
 }
 
-b, strong {
+b,
+strong {
     font-weight: bold;
 }
 
-/* navbar */
-.navbar-nav li a:hover, .navbar-nav .active {
-    color: #ff16ff; /* color of active link and hoover */
-}
 
+/* navbar */
+
+.navbar-nav li a:hover,
+.navbar-nav .active {
+    color: #ff16ff;
+    /* color of active link and hoover */
+}
 
 .progress-bar {
     width: 100%;
@@ -94,6 +105,7 @@ b, strong {
     background: #06113a;
     overflow: hidden;
 }
+
 .progress-bar-inner {
     left: 50%;
 }
@@ -109,13 +121,37 @@ b, strong {
     transform: translateX(-50%);
 }
 
+
 /* players */
 
 .player-carousel-background {
     background-image: url(../img/playerStadium.jpg);
     background-size: cover;
-    
 }
+
+
+/* news */
+
+#news-carousel {
+    background-color: white;
+    position: relative;
+}
+
+#news-carousel img {
+    z-index: 1;
+}
+
+.news-imgfade {
+    background-image: url(../img/news_bluewhitefade.png);
+    background-size: 100% 100%;
+    z-index: 2;
+    padding: 0px;
+}
+
+.news-carousel section {
+    z-index: 3;
+}
+
 
 /* footer */
 
@@ -124,27 +160,31 @@ footer p {
     font-weight: 400;
 }
 
-.fab:hover, .fas:hover, footer a {
+.fab:hover,
+.fas:hover,
+footer a {
     color: #ff16ff;
 }
 
 
 /* landing page */
 
-.home_banner_area{
-    background:url(../img/big1.jpg) no-repeat center bottom;
-    background-size:cover;
-    position:relative;
-    z-index:1;
-    min-height:790px
+.home_banner_area {
+    background: url(../img/big1.jpg) no-repeat center bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    min-height: 790px
 }
+
 @media (max-width: 767px) {
     .home_banner_area {
-        background-position:initial;
+        background-position: initial;
     }
 }
-.home_banner_area  .banner_inner{
-     position:relative;
-     width:100%;
-     min-height:790px
+
+.home_banner_area .banner_inner {
+    position: relative;
+    width: 100%;
+    min-height: 790px
 }
