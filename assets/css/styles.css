@@ -1,6 +1,7 @@
 body {
 	min-width: 370px;
     font-family: 'Open Sans', sans-serif;
+    /* scroll-behavior !work with ms or safari */
     scroll-behavior: smooth;
 }
 .screenheight {
