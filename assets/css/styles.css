@@ -134,18 +134,23 @@ strong {
 /* news */
 
 #news-carousel {
-    background-image: url(../img/news_bluewhitefade.png);
-    background-size: contain;
     position: relative;
     color: #5af7dc;
 }
 
-#news-carousel img{
-    z-index: 0;
+#news-carousel img {
+    position: relative;
+    padding: 0!important;
+}
+
+#news-carousel .text-block {
+    position:absolute;
+    padding: 5%;
 }
 
 #news-carousel h1 {
     color: #ff16ff;
+    text-align: center;
 }
 
 
