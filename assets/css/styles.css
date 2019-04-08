@@ -1,7 +1,11 @@
 body {
     min-width: 370px;
     font-family: 'Open Sans', sans-serif;
+<<<<<<< HEAD
     /* Note: scroll-behavior !work on ms/safari */
+=======
+    /* scroll-behavior !work with ms or safari */
+>>>>>>> master
     scroll-behavior: smooth;
 }
 
