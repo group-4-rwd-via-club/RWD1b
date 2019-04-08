@@ -1,11 +1,7 @@
 body {
     min-width: 370px;
     font-family: 'Open Sans', sans-serif;
-<<<<<<< HEAD
     /* Note: scroll-behavior !work on ms/safari */
-=======
-    /* scroll-behavior !work with ms or safari */
->>>>>>> master
     scroll-behavior: smooth;
 }
 
@@ -81,7 +77,6 @@ h1 {
     font-weight: 200;
     letter-spacing: 0.2em;
     line-height: 1.18;
-    
 }
 
 h2 {
@@ -145,6 +140,7 @@ strong {
 .fit-image {
     object-fit: cover;
 }
+
 
 /* footer */
 
